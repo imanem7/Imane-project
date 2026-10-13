@@ -18,7 +18,7 @@ L’Administrateur supprime une catégorie.
 
 2. Exemples de parcours fonctionnels :
 
-Acteur : Administrateur Écran de départ : Page de gestion des catégories Action : Clique sur le bouton “Ajouter une catégorie” Résultat : Affichage du formulaire de création de catégorie
+Acteur : Administrateur Écran de départ : Page de gestion des catégories Action : Clique sur le bouton “Ajouter une catégorie” Résultat : Affichage du formulaire de création de catégorie.
 
 3. Synthèse fonctionnelle de la partie admin :
 
