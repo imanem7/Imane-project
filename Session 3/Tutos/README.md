@@ -1,1 +1,0 @@
-Les tutos réalisés pendant la Session 3.
