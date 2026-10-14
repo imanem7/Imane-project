@@ -1,4 +1,3 @@
-
 # Résultat attendu : Découvrir réalités, identifiants et dépendances
 
 Voici le tableau complété suite à l’observation des répétitions dans le jeu de données des articles de blog.
