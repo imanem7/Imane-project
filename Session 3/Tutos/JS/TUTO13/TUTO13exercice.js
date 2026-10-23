@@ -3,7 +3,7 @@ let prix = [150, 80, 1200, 250];
 let stocks = [10, 0, 5, 3];
 
 let ValeurTotal = 0;
-let maximum = prix[0];
+let prixMax = prix[0];
 let produitCher = produits[0];
 
 for (let i = 0; i < produits.length; i++) {
@@ -16,8 +16,8 @@ for (let i = 0; i < produits.length; i++) {
 
     ValeurTotal = ValeurTotal + (prix[i] * stocks[i]);
 
-    if (prix[i] > maximum) {
-        maximum = prix[i];
+    if (prix[i] > prixMax) {
+        prixMax = prix[i];
         produitCher = produits[i]; 
     }
 
