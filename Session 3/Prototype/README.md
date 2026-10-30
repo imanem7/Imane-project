@@ -1,1 +1,0 @@
-Les prototypes réalisés pendant la Session 3.
