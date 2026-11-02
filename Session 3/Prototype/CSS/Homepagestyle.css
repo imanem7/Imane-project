@@ -1,7 +1,9 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: Lato;
     background: white;
+    max-width: 1440px;
+    flex-wrap: wrap;
 }
 
 a {
@@ -18,10 +20,6 @@ ul {
 
 p {
     color : #435A7E;
-}
-
-* {
-    flex-wrap: wrap;
 }
 
 header {
