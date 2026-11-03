@@ -3,6 +3,9 @@ body {
     font-family: Lato;
     background: white;
     max-width: 1440px;
+}
+
+* {
     flex-wrap: wrap;
 }
 
