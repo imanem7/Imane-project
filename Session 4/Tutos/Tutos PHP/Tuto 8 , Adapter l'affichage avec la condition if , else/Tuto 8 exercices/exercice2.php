@@ -16,7 +16,7 @@ $remise = $montant * $tauxRemise / 100;
 $montantFinal = $montant - $remise;
 ?>
 
-<?= "Montant initial : " . $montant . " DH\n" ?>
+<?= "Montant initial : " . $montant . " DH" ?> <br>
 <?= "Taux de remise : " . $tauxRemise . " %"  ?> <br>
 <?= "Montant de la remise : " . $remise . " DH" ?> <br>
 <?= "Montant final à payer : " . $montantFinal . " DH" ?>
