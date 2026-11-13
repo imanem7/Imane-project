@@ -1,0 +1,244 @@
+body {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: #F2F6FF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header svg {
+    color : #2680E8;
+    height: 40px;
+    width: 40px;
+}
+
+.header-titre h1 {
+    margin : 0;
+    font-size: 22px;
+}
+
+.header-titre span {
+    margin : 0;
+    font-size: 15px;
+    color: #526484;
+    font-weight: 500;
+}
+
+.taches-situation {
+    display: flex;
+    gap: 70px;
+    margin: 10px 40px;
+}
+
+.taches {
+    flex : 1;
+}
+
+.taches-total {
+    display: flex;
+    background-color: #F2F6FF;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px #2b415a;
+}
+
+.taches-total svg {
+    color : #2680E8;
+    background-color: #c3dbf7;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 15px;
+}
+
+.taches-total p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.taches-total h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.taches-total span {
+    margin : 0;
+    font-size: 13px;
+    color: #526484;
+    font-weight: 500;
+}
+
+.taches-terminees {
+    display: flex;
+    background-color: #E9F8EF;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px #2b415a;
+}
+
+.taches-terminees svg {
+    color : #1fa153;
+    background-color: #c5f8da;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 15px;
+}
+
+.taches-terminees p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.taches-terminees h3 {
+    margin: 0;
+    font-size: 25px;
+    color: #217a45;
+}
+
+.taches-terminees span {
+    margin : 0;
+    font-size: 13px;
+    color: #526484;
+    font-weight: 500;
+}
+
+.taches-nonterminees {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px #2b415a;
+}
+
+.taches-nonterminees svg {
+    color : #595a5b;
+    background-color: #e8f0f6;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 15px;
+}
+
+.taches-nonterminees p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.taches-nonterminees h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.taches-nonterminees span {
+    margin : 0;
+    font-size: 13px;
+    color: #526484;
+    font-weight: 500;
+}
+
+.titre-taches {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 35px;
+}
+
+.titre-taches h2 {
+    margin: 0;
+}
+
+.les-taches {
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.les-taches-detail {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px 35px;
+    box-shadow: 0px 3px 8px #66717e;
+}
+
+.les-taches-detail.vert {
+    background-color: #e3fae8;
+}
+
+.les-taches-detail.vert h3 {
+    text-decoration: line-through;
+}
+
+.les-taches-detail-titre h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.les-taches-detail-titre span {
+    margin : 0;
+    font-size: 13px;
+    color: #526484;
+    font-weight: 500;
+}
+
+.les-taches-detail-priorite {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.les-taches-detail-priorite.bleu {
+    color : #2680E8;
+    background-color: #c3dbf7;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.les-taches-detail-priorite.rouge {
+    color : #e82626;
+    background-color: #f7c3c3;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.les-taches-detail-priorite.vert {
+    color : #217a45;
+    background-color: #c3f7cd;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.les-taches-detail-date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color : #526484;
+}
+
+.les-taches-detail-date svg {
+    height: 20px;
+}
+
+.les-taches-detail-date span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
