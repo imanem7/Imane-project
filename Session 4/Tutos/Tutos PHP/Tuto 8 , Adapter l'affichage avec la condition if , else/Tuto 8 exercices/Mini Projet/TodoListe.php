@@ -90,7 +90,7 @@
         <section class="les-taches">
             <?php foreach ($taches as $tache): ?>
             <ul>
-                <li class="les-taches-detail <?php if ($tache['terminee'] == 'true'): ?>vert<?php endif; ?>">
+                <li class="les-taches-detail <?php if ($tache['terminee'] == 'true'): ?> vert <?php endif; ?>">
                     <?php if ($tache['terminee'] == true): ?>
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                             viewBox="0 0 24 24" fill="none" stroke="#22A447"
@@ -116,7 +116,7 @@
                         </span>
                     </div>
 
-                    <p class="les-taches-detail-priorite <?php if ($tache['priorite'] == 'Moyenne'): ?>bleu<?php elseif ($tache['priorite'] == 'Haute'): ?>rouge<?php else: ?>vert<?php endif; ?>"> 
+                    <p class="les-taches-detail-priorite<?php if ($tache['priorite'] == 'Moyenne'): ?> bleu <?php elseif ($tache['priorite'] == 'Haute'): ?> rouge <?php else: ?> vert <?php endif; ?>"> 
                         <?= htmlspecialchars($tache['priorite']) ?>
                     </p>
 
