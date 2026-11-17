@@ -91,20 +91,34 @@
             <?php foreach ($taches as $tache): ?>
             <ul>
                 <li class="les-taches-detail <?php if ($tache['terminee'] == 'true'): ?>vert<?php endif; ?>">
+                    <?php if ($tache['terminee'] == true): ?>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                            viewBox="0 0 24 24" fill="none" stroke="#22A447"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="m9 12 2 2 4-4"/>
+                        </svg>
+                    <?php else: ?>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                            viewBox="0 0 24 24" fill="none" stroke="#64748B"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                        </svg>
+                    <?php endif; ?>
 
-                        <div class="les-taches-detail-titre">
-                            <h3>
-                                <?= htmlspecialchars($tache['titre']) ?>
-                            </h3>
+                    <div class="les-taches-detail-titre">
+                        <h3>
+                            <?= htmlspecialchars($tache['titre']) ?>
+                        </h3>
 
-                            <span>
-                                <?= htmlspecialchars($tache['description']) ?>
-                            </span>
-                        </div>
+                        <span>
+                            <?= htmlspecialchars($tache['description']) ?>
+                        </span>
+                    </div>
 
-                        <p class="les-taches-detail-priorite <?php if ($tache['priorite'] == 'Moyenne'): ?>bleu<?php elseif ($tache['priorite'] == 'Haute'): ?>rouge<?php else: ?>vert<?php endif; ?>"> 
-                            <?= htmlspecialchars($tache['priorite']) ?>
-                        </p>
+                    <p class="les-taches-detail-priorite <?php if ($tache['priorite'] == 'Moyenne'): ?>bleu<?php elseif ($tache['priorite'] == 'Haute'): ?>rouge<?php else: ?>vert<?php endif; ?>"> 
+                        <?= htmlspecialchars($tache['priorite']) ?>
+                    </p>
 
                     <div class="les-taches-detail-date">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -117,7 +131,7 @@
                         <span>
                             <?= date('d/m/Y', strtotime($tache['date_limite'])) ?>
                         </span>
-            </div>
+                    </div>
                 </li>
             </ul>
             <?php endforeach; ?>

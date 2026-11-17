@@ -162,13 +162,11 @@ header svg {
 }
 
 .les-taches {
-    flex : 1;
     display: flex;
     flex-direction: column;
 }
 
 .les-taches-detail {
-    flex:1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -179,12 +177,20 @@ header svg {
     box-shadow: 0px 3px 8px #66717e;
 }
 
+.les-taches-detail > svg:first-child {
+    margin-right: 20px;
+}
+
 .les-taches-detail.vert {
     background-color: #e3fae8;
 }
 
 .les-taches-detail.vert h3 {
     text-decoration: line-through;
+}
+
+.les-taches-detail-titre {
+    flex: 1;
 }
 
 .les-taches-detail-titre h3 {
@@ -208,21 +214,21 @@ header svg {
 .les-taches-detail-priorite.bleu {
     color : #2680E8;
     background-color: #c3dbf7;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 20px;
 }
 
 .les-taches-detail-priorite.rouge {
     color : #e82626;
     background-color: #f7c3c3;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 20px;
 }
 
 .les-taches-detail-priorite.vert {
     color : #217a45;
     background-color: #c3f7cd;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 20px;
 }
 
@@ -235,6 +241,7 @@ header svg {
 
 .les-taches-detail-date svg {
     height: 20px;
+    margin-left: 100px;
 }
 
 .les-taches-detail-date span {
