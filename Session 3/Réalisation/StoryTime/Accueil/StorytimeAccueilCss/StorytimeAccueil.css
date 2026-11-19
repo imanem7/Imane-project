@@ -74,11 +74,9 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 50px 60px;
-    background: #f1e9ff;
-}
-
-.intro-text {
-    width: 45%;
+    background-image: url("../../images.storytime/storytime-cover.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .intro-text span {
@@ -95,7 +93,7 @@ nav a:hover {
 }
 
 .intro-text p {
-    color: #7a7480;
+    color: #3a393b;
     font-size: 16px;
     margin: 20px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -116,17 +114,6 @@ nav a:hover {
 
 .intro-text a:hover {
     background: #472f56;
-}
-
-.intro-image {
-    width: 45%;
-}
-
-.intro-image img {
-    width: 100%;
-    height: 350px;
-    border-radius: 20px;
-    object-fit: cover;
 }
 
 
