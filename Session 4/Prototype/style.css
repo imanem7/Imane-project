@@ -1,0 +1,188 @@
+
+body {
+    margin : 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #302D70;
+}
+
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold ;
+    font-size: 20px;
+    color: #F5F5FC;
+}
+
+.nav-bar {
+    margin-right: 10px;
+}
+
+.nav-bar a {
+    font-weight: 500;
+    color: #F5F5FC;
+    margin-right: 30px;
+}
+
+.mes-projets-intro {
+    background-image: url(images/Arrière-plan.png);
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+    text-align: center;
+}
+
+.mes-projets-intro h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold ;
+    font-size: 40px;
+    color: #302D70;
+}
+
+.mes-projets-intro p {
+    color : #34324F;
+    margin-bottom: 30px;
+}
+
+.mes-projets-intro a {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #514DA3;
+    color: #F5F5FC;
+    font-weight: 500;
+}
+
+.mes-projets {
+    background-color: #E8E8F8;
+}
+
+.mes-projets h2 {
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #302D70;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.mes-projets-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carte-projet {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F5F5FC;
+    box-shadow: 0px 3px 8px #302D70;
+}
+
+.carte-projet img {
+    border-radius: 20px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carte-projet h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #302D70;
+    font-size: 17px;
+}
+
+.carte-projet p {
+    margin: 0;
+    color : #34324F;
+    font-size: 15px;
+}
+
+.carte-projet p:nth-of-type(2) {
+    align-self: flex-start;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    background-color: #7774D6;
+    color: #F5F5FC;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.carte-projet-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carte-projet-footer .category {
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: #F5F5FC;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.carte-projet-footer .category.blue {
+    background-color: #4C62C8;
+}
+
+.carte-projet-footer .category.rose {
+    background-color: #C0529A;
+}
+
+.carte-projet-footer .category.violet {
+    background-color: #8054B8;
+}
+
+.carte-projet-footer .status {
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: #F5F5FC;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.carte-projet-footer .status.rouge {
+    background-color: #C94C55;
+}
+
+.carte-projet-footer .status.vert {
+    background-color: #3E9B70;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color : #DCDCF7;
+    padding: 20px;
+}
+
+footer a {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #514DA3;
+    color: #F5F5FC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer span {
+    font-size: 12px;
+    color: #686783;
+}
