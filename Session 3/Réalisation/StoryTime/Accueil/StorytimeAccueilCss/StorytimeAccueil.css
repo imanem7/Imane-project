@@ -24,17 +24,22 @@ i {
 }
 
 span {
-    color: #8b5cf6;
+    color: #7151bc;
     font-size: 15px;
     font-family: monospace;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 70px;
+    padding: 10px 70px;
     background: #faf7f2;
+    border-bottom: 1.5px solid #dcd1ee;
 }
 
 .logo img {
@@ -46,22 +51,28 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 nav a {
     color: #1e293b;
-    text-decoration: none;
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    padding: 5px 5px;
+}
+
+nav a:nth-child(1) {
+    border-bottom: 2px solid #7151bc;
 }
 
 nav a:nth-child(5) {
     color: #7151bc;
+    font-size: 15px;
     padding: 10px 20px;
     border-radius: 20px;
     background: #f1e9ff;
+    border : 1.5px solid #7151bc;
 }
 
 nav a:hover {
@@ -102,14 +113,14 @@ nav a:hover {
 .intro-text a {
     display: inline-block;
     padding: 12px 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     background: #8b5cf6;
     color: white;
     border-radius: 20px;
-    text-decoration: none;
     font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    box-shadow: 0px 3px 8px #8b5cf6;
 }
 
 .intro-text a:hover {
@@ -130,7 +141,7 @@ nav a:hover {
 }
 
 .universe-intro p {
-    color: #7a7480;
+    color: #635f67;
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
@@ -158,13 +169,13 @@ nav a:hover {
 }
 
 .universe-card p {
-    color: #7a7480;
+    color: #635f67;
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .universe-outro p {
-    color: #7a7480;
+    color: #635f67;
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.8;
@@ -202,10 +213,10 @@ nav a:hover {
     background: #8b5cf6;
     color: white;
     border-radius: 20px;
-    text-decoration: none;
     font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    box-shadow: 0px 3px 8px #8b5cf6;
 }
 
 .featured-link a:hover {
@@ -214,18 +225,19 @@ nav a:hover {
 
 .featured-detail {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap : 40px
 }
 
 .featured-card {
+    flex : 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1;
-    padding: 20px;
-    background: white;
-    border: 2px solid #e4dff0;
     border-radius: 20px;
+    padding: 20px;
+    background-color: #F5F5FC;
+    box-shadow: 0px 3px 8px #8b5cf6;
 }
 
 .featured-card img {
@@ -236,8 +248,12 @@ nav a:hover {
 }
 
 .featured-card .work-type {
-    color: #8b5cf6;
-    font-size: 13px;
+    color: #7151bc;
+    background: #e9defc;
+    padding: 8px 15px;
+    border-radius: 20px;
+    align-self: flex-start;
+    font-size: 12px;
     margin-top: 15px;
     margin-bottom: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -247,25 +263,28 @@ nav a:hover {
     color: #1e293b;
     font-family: Georgia, serif;
     font-size: 20px;
-    margin: 5px 0 10px;
+    margin: 0;
+    margin-top: 5px;
 }
 
 .featured-card p {
-    color: #7a7480;
+    margin: 0;
+    color: #635f67;
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
 }
 
 .featured-card a {
-    color: #1e293b;
-    text-decoration: none;
+    color: #7151bc;
     font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .featured-card a:hover {
-    color: #8b5cf6;
+    color: #5a4789;
 }
 
 
@@ -273,10 +292,11 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 20px;
+    padding: 20px 20px;
     background: #faf7f2;
     text-align: center;
     font-size: 12px;
+    border-top: 1.5px solid #dcd1ee;
 }
 
 footer div {
