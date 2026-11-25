@@ -21,6 +21,8 @@
 
 - `id_rapas` (PK, FK)
 - `id_commande` (PK, FK)
+- `quantite_commande`
+- `prix_unitaire_commande`
 
 ## 5. Table COMMANDE
 
