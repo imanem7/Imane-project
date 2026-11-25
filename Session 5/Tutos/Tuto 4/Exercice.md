@@ -28,6 +28,7 @@
 - `date_commande`
 - `heure_commande`
 - `statut_commande`
+- `id_client` (FK)
 
 ## 6. Table CLIENT
 
@@ -36,4 +37,3 @@
 - `prénom_client`
 - `email_client`
 - `téléphone_client`
-- `id_commande` (FK)
